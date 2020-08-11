@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="imagens/dce_logo.png">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
     <title>DCE UFFS</title>
 
 </head>

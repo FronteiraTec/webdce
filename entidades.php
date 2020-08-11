@@ -1,5 +1,3 @@
 <?php require_once("includes/header.php");?>
 
-</body>
-
-</html>
+<?php require_once("includes/footer.php");?>
