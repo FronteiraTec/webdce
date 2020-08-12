@@ -3,7 +3,8 @@
 
 <section class="content">
     <div class="contato">
-        <h3>Fale Conosco</h3>
+        <h1>Fale Conosco</h1>
+        <h6>Seu email não será publicado/divulgado. </h6>
         <form class="form" method="POST" action="./email.php">
             <input class="field" name="nome" placeholder="Nome">
             <input class="field" name="email" placeholder="E-mail">
