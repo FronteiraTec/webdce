@@ -19,6 +19,40 @@
 
     <?php require_once("includes/header.php"); ?>
 
+    <div class="bodyentreheaderefooter">
+        <div class="bodysecundariopartebranca">
+            <div class="parteescritadoscas">
+
+                <p><strong>CA - ADMINISTRAÇÃO</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - AGRONOMIA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - CIENCIAS DA COMPUTAÇÃO</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - CIENCIAS SOCIAIS</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - ENFERMAGEM</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - ENGENHARIA AMBIENTAL E SANITÁRIA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - FILOSOFIA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - GEOGRAFIA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - HISTÓRIA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - LETRAS</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - MATEMÁTICA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - MEDICINA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+                <p><strong>CA - PEDAGOGIA</strong> </p>
+                <p>Presidente: Marco Antônio Godinho dos Reis</p>
+
+            </div>
+        </div>
+    </div>
 
     <?php require_once("includes/footer.php"); ?>
 
