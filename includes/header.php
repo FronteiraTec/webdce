@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/dce_logo.png">
@@ -12,6 +13,7 @@
     <title>DCE UFFS</title>
 
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
@@ -19,10 +21,11 @@
                 <a class="navbar-brand" href="index.php">
                     <img id="logo" src="imagens/dce_logo.png" alt="Logo do DCE da UFFS">
                 </a>
-                <button class="navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <button class="navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-expanded="false" aria-label="Alterna navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-        
+
                 <div class="collapse navbar-collapse bg-light" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -32,12 +35,13 @@
                             <a class="nav-link" href="noticias.php">Noticias</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="mb-0 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="mb-0 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Movimento Estudantil
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Sobre o DCE</a>
-                                <a class="dropdown-item" href="#">CAs</a>
+                                <a class="dropdown-item" href="sobredce.php">Sobre o DCE</a>
+                                <a class="dropdown-item" href="ca.php">CAs</a>
                             </div>
                         </li>
                         <li class="nav-item">

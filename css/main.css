@@ -1,66 +1,179 @@
 footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    border: solid #ddd 1px;
+  background-color: rgb(55, 56, 55);
+  margin-top: 1000px;
+  width: 100%;
+  height: 110px;
 }
 
-footer p {
-    color: black;
-    float: left;
-    text-align: center;
+.faixinha {
+  background-image: linear-gradient(-90deg,
+      rgb(86, 238, 88),
+      rgb(16, 56, 14),
+      green);
+  margin-top: 790px;
+  width: 100%;
+  height: 7px;
 }
 
+.copyright {
+  color: rgb(255, 255, 255);
+
+  margin-top: 40px;
+  margin-left: 100px;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  float: left;
+}
 
 /* --------------------------------- pagina contato ---------------------- */
 .content {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 630px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 630px;
 }
 
 .contato {
-    width: 100%;
-    max-width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .field {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #DDD;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 textarea {
-    height: 150px;
+  height: 150px;
 }
+
 .botaoenviar {
-
-    background-image: linear-gradient(-90deg, red, yellow, green);
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #DDD;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(90deg,
+      rgb(25, 56, 25),
+      rgb(17, 189, 8),
+      rgb(33, 61, 33));
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
-.localizacao{
-    margin-top: -384px;
-    margin-left: 65px;
-    width: 600px;
-    height: 350px;
-    
+.localizacao {
+  margin-top: -384px;
+  margin-left: 65px;
+  width: 600px;
+  height: 350px;
 }
 
 @media (min-width: 220px) and (max-width: 551px) {
-    .localizacao {
-        width: 300px;
-    }
+  .localizacao {
+    width: 300px;
+  }
+}
+
+.redes-sociais {
+  width: 20%;
+  float: right;
+  margin-right: 60px;
+}
+
+
+
+.redes-sociais ul li {
+  margin-left: 15px;
+  float: left;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.contentaaa {
+  margin-top: 5px;
+  margin-left: 70px;
+  width: 400px;
+  position: relative;
+  float: left;
+  height: 95px;
+}
+
+.colher {
+  float: left;
+  color: rgb(255, 251, 251);
+  text-align: center;
+}
+
+/* --------------------------------- pagina sobredce ---------------------- */
+.continfo {
+  height: 330px;
+  width: 1250px;
+  background-color: white;
+  border: 3px solid;
+  border-radius: 7px;
+  border-color: #006000;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.textoinfo {
+  color: black;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.textoinfo p {
+  font-size: 20px;
+  text-indent: 20px;
+}
+
+.btn {
+  font-family: arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 75px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.btn-verde {
+  background-color: green;
+  color: #fff;
+  box-shadow: 0 5px 0 #006000;
+}
+
+.btn-verde:hover {
+  background: #006000;
+  color: #fff;
+  box-shadow: 0 5px 0 #f9fdf9;
+}
+
+.btn-verde:active {
+  top: 5px;
+  box-shadow: none;
+  position: relative;
+
+}
+
+.imagdce {
+  margin-left: 50px;
+  margin-top: 1px;
+}
+
+.textobotao {
+  color: black;
 }
