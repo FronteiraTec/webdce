@@ -30,11 +30,11 @@ header {
 }
 
 .navbar-nav .nav-item .nav-link {
-    margin-left: 8px;
+    margin-left:  8px;
     color: #444;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover{
     color: #00693e;
     background-color: transparent;
 }
@@ -49,7 +49,7 @@ header {
 }
 
 @media (min-width: 992px) {
-    .dropdown:hover>.dropdown-menu {
+    .dropdown:hover > .dropdown-menu {
         display: block;
     }
 
@@ -59,10 +59,10 @@ header {
 
     .navbar-nav .nav-item .nav-link {
         margin-top: 60px;
-        margin-left: 8px;
+        margin-left:  8px;
         color: #444;
     }
-
+    
     .navbar-nav .nav-item:hover .nav-link {
         border-bottom: 2px solid #00693e;
     }
