@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php">
                     <img id="logo" src="imagens/dce_logo.png" alt="Logo do DCE da UFFS">
